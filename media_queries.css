@@ -17,7 +17,7 @@ body {
     }
 }
 
-@media (hover: hover) {
+/*@media (hover: hover) {
     body {
         background-color: lightgray;
     }
