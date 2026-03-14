@@ -1,0 +1,38 @@
+
+.box1 {
+
+    background-color: lightcoral;
+    width: 250px;
+    height : 250px;
+    border : 2px solid black;
+        position: relative;
+        z-index: -2;
+
+}
+
+.box2 {
+
+    background-color: lightblue;
+    width: 250px;
+    height : 250px;
+    border : 2px solid black;
+    position: relative;
+    bottom : 50px;
+    z-index: 1;
+    
+
+}
+
+.box3 {
+
+    background-color: lightgreen; 
+    width: 250px;
+    height : 250px;
+    border : 2px solid black;
+    position: relative;
+    bottom : 100px;
+        z-index: -1;
+    
+   
+
+}

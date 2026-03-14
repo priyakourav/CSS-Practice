@@ -1,0 +1,31 @@
+body {
+    background:linear-gradient(to right, rgb(12, 60, 163), rgb(42, 107, 107));
+}
+
+.Loader{
+    border:6px transparent solid;
+    border-top:6px solid rgb(248, 245, 245);
+    border-radius:50%;
+    width: 100px;
+    height:100px;
+    animation:spin 2s linear infinite;
+    margin: 150px auto;
+    
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+    @keyframes spin{0%
+    {
+        transform:rotate(0deg);
+    }100%
+    {
+        
+        transform:rotate(360deg);
+    }
+}
